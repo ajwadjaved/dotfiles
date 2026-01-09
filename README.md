@@ -1,6 +1,4 @@
-Currently contains the wallpaper/lockscreen backgrounds I use (mostly 1920x1080), the aliases I have in .bashrc and a minimalistic python ide in the .vimrc
-  
-Vimium shortcuts:
+  Vimium shortcuts:
 
 ```
 map H scrollLeft
@@ -15,11 +13,18 @@ map X removeTab
 map n removeTab
 map N restoreTab
 
+map 7 scrollPageUp
+map 8 scrollPageDown
+
 map , visitPreviousTab
 map . Marks.activateGotoMode
 
 unmap .
-unmap m
-unmap M
 unmap /
+unmap i
+unmap p
+unmap w
+unmap W
+unmap <c-e>
+unmap <c-y>
 ```
